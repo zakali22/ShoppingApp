@@ -1,2 +1,2 @@
-# Shopping list App
+# List Web App
 # A simple shopping list app, using angularjs
