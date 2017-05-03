@@ -22,7 +22,7 @@
 				<div class="col-md-6 col-md-offset-3">
 					<p>{{errorText}}</p>
 					<ul>
-						<li ng-if="baskets.length === 0">No items in basket</li>
+						<li ng-if="baskets.length === 0">There are no items in the basket</li>
 						<li ng-repeat="x in baskets">{{x}}
 						<span ng-click="removeItem($index)"><a href="#">&times;</a></span>
 						</li>
